@@ -8,7 +8,7 @@ npm remove vite laravel-vite-plugin
 
 Replace npm scripts in ```package.json```:
 
-```
+```diff
 "scripts": {
     // ...
 -    "dev": "vite",
