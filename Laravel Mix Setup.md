@@ -8,26 +8,18 @@ npm remove vite laravel-vite-plugin
 
 Replace npm scripts in ```package.json```:
 
-Remove:
 ```
 "scripts": {
     // ...
-    "dev": "vite",
-    "build": "vite build"
-}
-```
-
-Add:
-```
-"scripts": {
-    // ...
-    "dev": "npm run development",
-    "development": "mix",
-    "watch": "mix watch",
-    "watch-poll": "mix watch -- --watch-options-poll=1000",
-    "hot": "mix watch --hot",
-    "prod": "npm run production",
-    "production": "mix --production"
+-    "dev": "vite",
+-    "build": "vite build"
++    "dev": "npm run development",
++    "development": "mix",
++    "watch": "mix watch",
++    "watch-poll": "mix watch -- --watch-options-poll=1000",
++    "hot": "mix watch --hot",
++    "prod": "npm run production",
++    "production": "mix --production"
 }
 ```
 

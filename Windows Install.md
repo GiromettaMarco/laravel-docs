@@ -24,7 +24,7 @@ Open dir in Visual Studio Code:
 code .
 ```
 
-Fix Vite configuration for Sail as mentioned [here](https://github.com/laravel/vite-plugin/pull/42):
+Fix Vite configuration for Sail as mentioned [here](https://github.com/laravel/vite-plugin/pull/42) by editing ```vite.config.js```:
 
 ```js
 export default defineConfig({
