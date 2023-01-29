@@ -26,7 +26,7 @@ code .
 
 Fix Vite configuration for Sail as mentioned [here](https://github.com/laravel/vite-plugin/pull/42) by editing ```vite.config.js```:
 
-```js
+```diff
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 
