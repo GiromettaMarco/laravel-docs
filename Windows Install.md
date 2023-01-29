@@ -8,14 +8,14 @@
 
 ## Installation
 
+Start Docker Desktop.
+
 From Ubuntu terminal:
 
 ```
-curl -s https://laravel.build/example-app | bash
+curl -s https://laravel.build/[app-name] | bash
 
-cd example-app
- 
-./vendor/bin/sail up
+cd [app-name] && sail up
 ```
 
 Open dir in Visual Studio Code:
@@ -27,13 +27,21 @@ code .
 Fix Vite configuration for Sail as mentioned [here](https://github.com/laravel/vite-plugin/pull/42) by editing ```vite.config.js```:
 
 ```js
+import { defineConfig } from 'vite';
+import laravel from 'laravel-vite-plugin';
+
 export default defineConfig({
-    // ...
-    server: {
-        hmr: {
-            host: 'localhost',
-        },
-    },
+    plugins: [
+        laravel({
+            input: ['resources/css/app.css', 'resources/js/app.js'],
+            refresh: true,
+        }),
+    ],
++    server: {
++        hmr: {
++            host: 'localhost',
++        },
++    },
 });
 ```
 
