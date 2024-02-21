@@ -12,17 +12,13 @@ Install Laravel Breeze using Composer:
 sail composer require laravel/jetstream
 ```
 
-Install a Livewire stack:
+Install a stack:
 
 ```
-sail artisan jetstream:install livewire --teams
+sail artisan jetstream:install
 ```
 
-or an Inertia stack:
-
-```
-sail artisan jetstream:install inertia --teams
-```
+Then follow the terminal wizard.
 
 Install npm packages:
 
@@ -39,7 +35,7 @@ Setup your .env, DB and run your migrations:
 sail artisan migrate
 ```
 
-## Laravel Vite/Sail Fix
+## Laravel (9) Vite/Sail Fix
 
 Fix Vite configuration for Sail as mentioned [here](https://github.com/laravel/vite-plugin/pull/42):
 

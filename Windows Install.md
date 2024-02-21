@@ -14,7 +14,9 @@ From Ubuntu terminal:
 
 ```
 curl -s https://laravel.build/[app-name] | bash
+```
 
+```
 cd [app-name] && sail up
 ```
 
@@ -23,6 +25,8 @@ Open dir in Visual Studio Code:
 ```
 code .
 ```
+
+## Vite Fix (Laravel 9)
 
 Fix Vite configuration for Sail as mentioned [here](https://github.com/laravel/vite-plugin/pull/42) by editing ```vite.config.js```:
 
@@ -47,7 +51,7 @@ export default defineConfig({
 
 ## Usage
 
-Use 'sail' instead of 'php':
+Use ```sail``` instead of ```php```:
 
 ```
 sail artisan migrate
