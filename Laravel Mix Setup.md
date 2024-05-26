@@ -45,4 +45,4 @@ mix.js('resources/js/app.js', 'public/js')
 
 ## Reference
 
-[Migrating from Vite to Laravel Mix](https://github.com/laravel/vite-plugin/blob/main/UPGRADE.md#migrating-from-vite-to-laravel-mix)
+- [Migrating from Vite to Laravel Mix](https://github.com/laravel/vite-plugin/blob/main/UPGRADE.md#migrating-from-vite-to-laravel-mix)

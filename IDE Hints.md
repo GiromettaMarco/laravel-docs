@@ -18,7 +18,7 @@ Generate ```_ide_helper.php```:
 php artisan ide-helper:generate
 ```
 
-Add documentation to Models:
+Add Model helpers:
 
 ```
 php artisan ide-helper:models
@@ -47,6 +47,5 @@ Configure your ```composer.json``` to do this each time you update your dependen
 
 ## Reference
 
-[GitHub Repository](https://github.com/barryvdh/laravel-ide-helper)
-
-[Commands]https://github.com/barryvdh/laravel-ide-helper#automatic-phpdoc-generation-for-laravel-facades
+- [GitHub Repository](https://github.com/barryvdh/laravel-ide-helper)
+- [Commands](https://github.com/barryvdh/laravel-ide-helper#automatic-phpdoc-generation-for-laravel-facades)

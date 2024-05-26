@@ -4,7 +4,25 @@ This document is a memorandum for installation and usage of Laravel Jetstream in
 
 This document assumes that you are using Laravel Sail.
 
-## Installation
+## With Laravel installer
+
+The leatest version of the Laravel installer contains a wizard to scaffold a new project with Jetstream.
+
+Install the installer globally (if you haven't already):
+
+```
+composer global require laravel/installer
+```
+
+Then create a new project and follow the terminal wizard:
+
+```
+laravel new [my-app]
+```
+
+Update ```.env``` file with database info before running migrations.
+
+## With Composer
 
 Install Laravel Breeze using Composer:
 
@@ -52,6 +70,8 @@ export default defineConfig({
 
 ## Publish views
 
+(this is no longer necessary in the latest Jetstream versions)
+
 ```
 sail artisan vendor:publish --tag=jetstream-views
 ```
@@ -60,6 +80,6 @@ sail artisan vendor:publish --tag=jetstream-views
 
 ## Reference
 
-- [Laravel Jetstream documentation](https://jetstream.laravel.com/2.x/introduction.html)
-- [Laravel Livewire documentation](https://laravel-livewire.com/docs/2.x/quickstart)
+- [Laravel Jetstream documentation](https://jetstream.laravel.com/installation.html)
+- [Laravel Livewire documentation](https://livewire.laravel.com/docs/quickstart)
 - [Laravel Vite/Sail fix](https://github.com/laravel/vite-plugin/pull/42)

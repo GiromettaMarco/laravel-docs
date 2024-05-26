@@ -26,4 +26,4 @@ sail npm run dev
 
 ## Reference
 
-[Laravel Breeze documentation](https://laravel.com/docs/9.x/starter-kits#laravel-breeze)
+- [Laravel Breeze documentation](https://laravel.com/docs/9.x/starter-kits#laravel-breeze)
