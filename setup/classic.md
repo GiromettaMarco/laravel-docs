@@ -1,0 +1,22 @@
+# Laravel project setup
+
+- [ ] `laravel new project-name`
+- [ ] vs-code
+    - [ ] workspace settings
+    - [ ] extensions
+    - [ ] tasks
+- [ ] git
+    - [ ] `git init --initial-branch=master`
+    - [ ] .gitattributes
+    - [ ] .gitignore
+- [ ] eslint (config)
+- [ ] prettier (config)
+- [ ] typescript (config)
+- [ ] vite (config)
+- [ ] tailwind (config)
+- [ ] .env
+- [ ] husky
+- [ ] linst-staged
+- [ ] github
+    - [ ] actions
+    - [ ] new repo
